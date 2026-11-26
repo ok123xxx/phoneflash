@@ -6,24 +6,8 @@
       "chipFamily": "ESP32-S3",
       "improv": false,
       "parts": [
-        { "path": "../firmware/esp32s3-starter/bootloader.bin", "offset": 0 },{
-  "name": "ESP32-S3 Starter",
-  "version": "1.0.0",
-  "builds": [
-    {
-      "chipFamily": "ESP32-S3",
-      "improv": false,
-      "parts": [
         { "path": "../firmware/esp32s3-starter/bootloader.bin", "offset": 0 },
         { "path": "../firmware/esp32s3-starter/partitions.bin", "offset": 32768 },
-        { "path": "../firmware/esp32s3-starter/firmware.bin", "offset": 65536 }
-      ]
-    }
-  ]
-}
-
-        { "path": "../firmware/esp32s3-starter/partitions.bin", "offset": 32768 },
-        { "path": "../firmware/esp32s3-starter/boot_app0.bin", "offset": 57344 },
         { "path": "../firmware/esp32s3-starter/firmware.bin", "offset": 65536 }
       ]
     }
